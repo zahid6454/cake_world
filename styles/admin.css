@@ -1,0 +1,295 @@
+
+/* Navbar */
+
+#navbar_options
+{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Navbar */
+
+
+/* Welcome Page */
+
+#info_box1,#info_box2,#info_box3,#info_box4,#info_box5
+{
+    margin-bottom: 5%;
+    width: 100%;
+    cursor: default;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: 0 10px 6px -6px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0 10px 6px -6px rgba(0,0,0,0.30);
+    box-shadow: 0 10px 6px -6px rgba(0,0,0,0.30);
+}
+#info_box1:after,#info_box2:after,#info_box3:after,#info_box4:after,#info_box5:after
+{
+    content: '';
+    position: absolute;
+    border-radius: 5px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(rgba(255,255,255,0.8) 10%, rgba(255,255,255,0.2));
+}
+#info_box1 { background: linear-gradient(#1a237e,#18ffff); }
+#info_box2 { background: linear-gradient(#1a237e,#18ffff); }
+#info_box3 { background: linear-gradient(#1a237e,#18ffff); }
+#info_box4 { background: linear-gradient(#1a237e,#18ffff); }
+#info_box5 { background: linear-gradient(#1a237e,#18ffff); }
+
+#info_text_part,#info_number_part
+{
+    cursor:default;
+}
+
+#shortcut_box1,#shortcut_box2,#shortcut_box3,#shortcut_box4
+{
+    cursor: pointer;
+    color: white;
+    width: 350px;
+    height: 125px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Julius Sans One', sans-serif;
+    border: none;
+    outline: none;
+    box-shadow: 0 10px 6px -6px gray;
+    transition: 500ms all ease;
+}
+#shortcut_box1 {background: #49a942 ;}
+#shortcut_box2 {background: #7303c0 ;}
+#shortcut_box3 {background: #ec2c22 ;}
+#shortcut_box4 {background: #ff9500 ;}
+
+#shortcut_text_part,#shortcut_icon_part
+{
+    cursor: pointer;
+}
+#shortcut_box1:hover,#shortcut_box2:hover,#shortcut_box3:hover,#shortcut_box4:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 20px 20px -10px rgba(0,0,0,0.2);
+}
+i
+{
+    color: (255,255,255,0.5);
+    margin-bottom: 10px;
+}
+/* Welcome Page */
+
+
+/* Footer */
+
+#footer{
+  background: #fff;
+  position: relative;
+}
+
+#footer::before{
+  content: "";
+  background: linear-gradient(to right, #ffffff 0%,#684f40 50%,#ffffff 100%);
+  height: 5px;
+  width: 100%;
+  position: absolute;
+}
+
+.footer-wrapper{
+  padding: 50px 0;
+  float: left;
+  width: 100%;
+}
+
+/* Footer */
+
+/*** Admin Page ***/
+/*** Admin Page ***/
+
+
+/*** Add Product ***/
+
+
+#product_name_input,#product_type_input
+{
+    display: inline-block;
+    border: 1px #684f40 solid;
+    outline: none;
+    padding: 16px;
+    background-color: #FFF;
+    color: #333;
+    margin: 10px 0;
+    font-size: 16px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+#product_name_input:focus,#product_type_input:focus
+{
+    border-color: #fdb822;
+}
+#description 
+{
+	width: 100%;
+	border: 1px #684f40 solid;
+	outline: none;
+	padding: 16px;
+	background-color: #FFF;
+	color: #333;
+    resize: none;
+    font-size: 16px;
+	margin: 10px 0;
+	-moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+#description:focus 
+{
+	border-color: #fdb822;
+}
+#cake_price_half,#cake_price_one,#cake_price_two
+{
+    display: inline-block;
+    border: 1px #684f40 solid;
+    outline: none;
+    padding: 16px;
+    background-color: #FFF;
+    color: #333;
+    margin: 10px 0;
+    font-size: 16px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+#cake_price_half:focus,#cake_price_one:focus,#cake_price_two:focus
+{
+    border-color: #fdb822;
+}
+#cake_upload_picture
+{
+    cursor: pointer;
+    color: white;
+    background: #ff9500;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Julius Sans One', sans-serif;
+    border: none;
+    outline: none;
+    box-shadow: 0 10px 6px -6px gray;
+    transition: 500ms all ease;
+}
+#cake_upload_picture:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 20px 20px -10px rgba(0,0,0,0.2);
+}
+#cake_add_button
+{
+    cursor: pointer;
+    color: white;
+    background: #49a942;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 0px;
+    font-family: 'Julius Sans One', sans-serif;
+    border: none;
+    outline: none;
+    box-shadow: 0 10px 6px -6px gray;
+    transition: 500ms all ease;
+}
+#cake_add_button:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 20px 20px -10px rgba(0,0,0,0.2);
+}
+
+/*** Add Product ***/
+
+
+/*** Users ***/
+/*** Users ***/
+
+/*** New Orders ***/
+
+#recieve_button,#delete_button
+{
+    display: block;
+    cursor: pointer;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 40px;
+    font-family: 'Julius Sans One', sans-serif;
+    border: none;
+    outline: none;
+    box-shadow: 0 10px 6px -6px gray;
+    transition: 500ms all ease;
+}
+#recieve_button:hover,#delete_button:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 20px 20px -10px rgba(0,0,0,0.2);
+}
+#recieve_button { background: #49a942; }
+#delete_button { background: #ec2c22; }
+
+/*** New Orders ***/
+
+
+
+/*** Pedning Orders ***/
+
+#deliever_button,#failed_button
+{
+    display: block;
+    cursor: pointer;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 0px;
+    font-family: 'Julius Sans One', sans-serif;
+    border: none;
+    outline: none;
+    box-shadow: 0 10px 6px -6px gray;
+    transition: 500ms all ease;
+}
+#deliever_button:hover,#failed_button:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 20px 20px -10px rgba(0,0,0,0.2);
+}
+#deliever_button { background: #49a942; }
+#failed_button { background: #ec2c22; }
+
+/*** New Orders ***/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

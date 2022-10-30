@@ -1,0 +1,142 @@
+/* Footer */
+
+#footer{
+  background: #fff;
+  position: relative;
+}
+
+#footer::before{
+  content: "";
+  background: linear-gradient(to right, #ffffff 0%,#684f40 50%,#ffffff 100%);
+  height: 5px;
+  width: 100%;
+  position: absolute;
+}
+
+.footer-wrapper{
+  padding: 50px 0;
+  float: left;
+  width: 100%;
+}
+
+/* Footer */
+
+table {
+  border: 1px solid #ff9500;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+table tr {
+  border: 1px solid #ff9500;
+  padding: .35em;
+}
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+table th {
+  color: white;
+  background: #ff9500;
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}#quantity_input
+{
+    border: 1px solid #684f40;
+    text-align: center;
+    padding: 5px 5px;
+    width: 200px;
+}
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table caption {
+    font-size: 1.3em;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+#total_price_title
+{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #333;
+    float: left;
+}
+#total_price
+{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #222;
+    float: right;
+}
+#order_button
+{
+    cursor: pointer;
+    color: white;
+    background: #ec2c22;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 40px;
+    font-family: 'Julius Sans One', sans-serif;
+    border: none;
+    outline: none;
+    box-shadow: 0 10px 6px -6px gray;
+    transition: 500ms all ease;
+}
+#contact_title,#order_title
+{
+    color: #ff9500;
+    font-size: 25px;
+    font-weight: bold;
+}
+#contact_name,#contact_phone,#contact_address
+{
+    border: 1px solid #684f40;
+    font-size: 17px;
+}
+#order_button:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 20px 20px -10px rgba(0,0,0,0.2);
+}
